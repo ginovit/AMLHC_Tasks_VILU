@@ -6,7 +6,7 @@ def calcMeans(dataframe):
     return dataframe.apply(lambda x: x.mean())
 
 # DataFrame
-test_df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
+test_df = pd.DataFrame({'A': [1, 2, 3, 4, 5], 'B': [10, 20, 30, 40, 50]})
 print("Test DataFrame Mean:")
 print(calcMeans(test_df))
 print(test_df.describe())
