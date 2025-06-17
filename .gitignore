@@ -13,7 +13,6 @@ ENV/
 .ipynb_checkpoints/
 
 # === Datenordner (nicht versionieren) ===
-data/raw/
 data/processed/
 
 # === IDE- und OS-spezifische Dateien ===
